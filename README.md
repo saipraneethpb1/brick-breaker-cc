@@ -6,6 +6,8 @@ A minimalist brick breaker game built with vanilla HTML, CSS, and JavaScript.
 
 Open `index.html` in any modern browser — no build step, no dependencies.
 
+[Play](https://saipraneethpb1.github.io/brick-breaker-cc/)
+
 ## Controls
 
 | | Action |
