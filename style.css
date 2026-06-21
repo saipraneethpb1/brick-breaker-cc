@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#wrapper {
+  position: relative;
+}
+
+#game {
+  display: block;
+  cursor: none;
+}
+
+@media (max-width: 820px) {
+  #game {
+    width: 100vw;
+    height: calc(100vw * 0.75);
+  }
+}
